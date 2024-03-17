@@ -20,7 +20,6 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding-inline: 10%;
 }
 
 #content{ 
@@ -32,20 +31,21 @@ body{
     width: 60px;
     height: 60px;
     background: chartreuse;
+    margin-left: 6%;
 }
 
 #photo{
-    width: 100%;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    object-fit: fill;
 }
 
 #name_user{
-    width: 300px;
-    height: 60px;
+    width: 76.8442623%;
     background: cyan;
     text-align: center;
     font-size: 18px;
-    padding-block: 21px;
+    padding-top: 21px;
+    margin-right: 6%;
 }
 
