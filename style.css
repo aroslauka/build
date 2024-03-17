@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    grid-template-areas: 'header' 'user' 'content';
+    grid-template-rows: 84px 60px 1fr; grid-template-columns: 1fr;
+    grid-gap: 0; 
+    margin: 10%;
+    width: 390px;
+    height: 100vh;
+    border: 8px solid;
+    border-color: black;
+}
+
+#header{ 
+    grid-area: header; 
+    background: yellow;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#user{ 
+    grid-area: user;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-inline: 15px;
+}
+
+#content{ 
+    grid-area: content;
+    background: blue;
+}
+
+#photo_user{
+    width: 60px;
+    height: 60px;
+    background: chartreuse;
+}
+
+#photo{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+#name_user{
+    width: 300px;
+    height: 60px;
+    background: cyan;
+    text-align: center;
+    font-size: 18px;
+    padding-block: 21px;
+    border: black 8px solid;
+}
+
