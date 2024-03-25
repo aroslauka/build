@@ -191,7 +191,7 @@ body{
     float: left;
     background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.5));
     width: 60%;
-    height: 290px;
+    max-height: 100%;
     right: 0;
     z-index: 2;
     overflow: auto;
