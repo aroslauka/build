@@ -196,6 +196,7 @@ body{
     z-index: 2;
     overflow: auto;
     font-family: "Viaoda Libre", serif;
+    color: red;
 }
 
 #article{
