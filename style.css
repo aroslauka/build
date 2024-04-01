@@ -1,18 +1,12 @@
 body{
     display: grid;
-    grid-template-areas: 'header' 'user' 'content';
-    grid-template-rows: 84px 60px 1fr; grid-template-columns: 1fr;
+    grid-template-areas: 'user' 'content' 'footer';
+    grid-template-rows: 60px 1fr 70px; grid-template-columns: 1fr;
     grid-gap: 0; 
     margin: 0;
     background: #f1f1f1;
     font-family: "Geologica", sans-serif;
-}
-
-#header{ 
-    grid-area: header; 
-    background: #f1f1f1;
     padding-top: 10px;
-    text-align: center;
 }
 
 #user{ 
@@ -25,47 +19,61 @@ body{
 #content{ 
     grid-area: content;
     background: #f1f1f1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+
+#footer{
+    grid-area: footer;
+    text-align: center;
 }
 
 #content1{
     background: #f1f1f1;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding-top: 60px;
-    margin-bottom: 60px;
     text-align: center;
+    background: crimson;
+    width: 83.9665428%;
+    padding: 1%;
+    margin-left: 7.01672862%;
 }
 
 #content2{ 
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
-    margin-bottom: 60px;
+    background: crimson;
+    width: 83.9665428%;
+    padding: 1%;
+    margin-left: 7.01672862%;
 }
 
-#content4{
+#content3{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding-top: 60px;
-    margin-bottom: 30px;
     text-align: center;
+    background: crimson;
+    width: 83.9665428%;
+    padding: 1%;
+    margin-left: 7.01672862%;
 }
 
-#content3_4{ 
-    padding-top: 60px;
-    margin-bottom: 60px;
+#content4{ 
     background-color:#f1f1f1 ;
     display: flex;
     flex-direction: column;
     height: 450px;
+    background: crimson;
+    width: 83.9665428%;
+    padding: 1%;
+    margin-left: 7.01672862%;
 }
 
 #photo_user{
     width: 60px;
     height: 60px;
-    margin-left: 6%;
+    margin-left: 7.01672862%;
+    margin-right: 3%;
 }
 
 #photo{
@@ -75,15 +83,31 @@ body{
 }
 
 #name_user{
-    width: 76.8442623%;
     text-align: center;
-    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 6%;
-    border-radius: 90px;
-    background: white;
+    margin-right: 1.7%;
+}
+
+#name_user a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+#arrow{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#arrow a{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #blocks_countries{
@@ -327,16 +351,14 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-bottom: 60px;
-    width: 85.9665428%;
-    margin-left: 7.01672862%;
+    width: 100%;
+    height: 100px;
 }
 
 #catalog{
-    width: 85.9665428%;
+    width: 100%;
     height: 250px;
     margin-bottom: 60px;
-    margin-left: 7.01672862%;
     border-radius:30px 0 30px 0;
     background-image: url('img/catalog_back.svg');
     display: flex;
@@ -360,7 +382,7 @@ body{
 }
 
 .inf{
-    width: 27.027027%;
+    min-width: 100px;
     height: 100px;
     background: white;
     border-radius: 12px;
@@ -375,24 +397,23 @@ body{
 }
 
 #window1{
-    margin-right: 9.45945946%;
+    width: 8.45945946%; 
 }
 
 #window2{
-    margin-right: 9.45945946%;
+    width: 8.45945946%; 
 }
 
 #question{
     width: 85.9665428%;
-    height: 70px;
     margin-left: 7.01672862%;
-    margin-bottom: 60px;
     border-radius: 15%;
 }
 
 #question_b{
     width: 100%;
     height: 70px;
+    margin-bottom: 60px;
     border-radius: 15%;
     background: linear-gradient(#1062d3, #0e4ea8);
     border-radius:30px 0 30px 0;
@@ -400,6 +421,7 @@ body{
     box-shadow: 1px 1px 1px 1px #4a8ce9;
     font-size: 18px;
     color: white;
+
 }
 
 #question_b:hover{
