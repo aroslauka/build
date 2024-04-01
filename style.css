@@ -18,7 +18,7 @@ body{
 
 #content{ 
     grid-area: content;
-    background: #f1f1f1;
+    background: white;
     padding-top: 60px;
     padding-bottom: 60px;
     width: 100%;
@@ -43,26 +43,36 @@ body{
     position: relative;
     z-index: 3;
     background: #f1f1f1;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.01);
     text-align: center;
-    background: crimson;
     width: 83.9665428%;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 7.01672862%;
+    border: 3px solid rgba(219, 240, 255, 0.07); 
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
+    box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
+    box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
 }
 
 #content2{ 
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
-    background: crimson;
+    background: rgba(255, 255, 255, 0.01);
     width: 83.9665428%;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 7.01672862%;
+    border: 3px solid rgba(219, 240, 255, 0.3); 
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
+    box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
+    box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
 }
 
 #content3{
@@ -77,6 +87,10 @@ body{
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 7.01672862%;
+    border: 3px solid rgba(219, 240, 255, 0.07); 
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
+    box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
+    box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
 }
 
 #content4{ 
@@ -91,6 +105,10 @@ body{
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 7.01672862%;
+    border: 3px solid rgba(219, 240, 255, 0.07); 
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
+    box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
+    box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
 }
 
 #photo_user{
@@ -179,19 +197,19 @@ body{
     margin-top: 8%;
     height: 78px;
     border:none;
-    background-color: white;
+    background-color:rgba(255, 255, 255, 0.01);
     font-size:18px;
-    text-decoration: none;
-    color:white;
-    background-image: url('img/picture2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+}
+.img{
+    width: 100%;
+    height: 78px;
+    object-fit: cover;
+    position: relative;
 }
 
 #country a{
     text-decoration: none;
-    color: black;
+    color: rgba(255, 255, 255, 1);
 }
 
 #another_country{
@@ -199,20 +217,22 @@ body{
     width: 85.9665428%;
     height: 70px;
     margin-left: 7.01672862%;
-    margin-bottom: 60px;
     border-radius: 15%;
 }
 
 #another_country_b{
-    margin-top:8%;
+    margin-top:2%;
     width: 100%;
     height: 54px;
     border-radius: 15%;
     background: linear-gradient(90deg, #97D3FF 0%, #0C92F3 100%);
     border-radius:34px;
     border: none;
-    font-size: 18px;
     color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 21.94px;
 }
 
 #block2{
@@ -409,18 +429,15 @@ body{
 }
 
 .inf{
+    border: 1px solid rgba(115, 194, 252, 1);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 50%, rgba(45, 47, 39, 0.1) 100%);
     min-width: 100px;
     height: 100px;
-    background: white;
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 11px;
-    box-shadow:
-    0 3em 3em rgba(0, 0, 0, 0.1),
-    0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 #window1{
