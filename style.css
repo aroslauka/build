@@ -29,7 +29,7 @@ body{
     text-align: center;
 }
 
-#tree{
+#tree1{
     position: absolute;
     z-index: 2;
     width: 328px;
@@ -37,6 +37,26 @@ body{
     left: -11%;
     top: 361px;
     transform: rotate(-30deg);
+}
+
+#tree2{
+    position: absolute;
+    z-index: 2;
+    width: 328px;
+    height: 327px;
+    top: -1px;
+    right: -6%;
+    transform: rotate(35deg);
+}
+
+#tree2_1{
+    position: absolute;
+    z-index: 2;
+    width: 328px;
+    height: 327px;
+    left: -20%;
+    top: 430px;
+    transform: rotate(180deg);
 }
 
 #content1{
@@ -61,6 +81,8 @@ body{
 }
 
 #content2{ 
+    position: relative;
+    z-index: 3;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -164,7 +186,7 @@ body{
     width: 100px;
 }
 
-#blocks_countries{
+/* #blocks_countries{
     margin-left:5%;
     background: rgba(255, 255, 255, 0.01);
     width: 90%;
@@ -178,7 +200,7 @@ body{
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
     box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
     
-}
+} */
 
 #country_choice{
     color: rgba(0, 0, 0, 1);;
@@ -200,34 +222,50 @@ body{
     margin-left: 2%;
     width: 96%;
     border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     border-radius:15px;
     margin-top: 8%;
     height: 78px;
-    border:none;
-    background-color:rgba(255, 255, 255, 0.01);
-    font-size:18px;
+    position: relative;
 }
+
+.c_im{
+    width: 100%;
+    height: 78px;
+    position: absolute;
+    z-index: 1;
+}
+
 .img{
     width: 100%;
     height: 78px;
     object-fit: cover;
-    position: relative;
 }
 
-#country a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
+.c_txt{
+    width: 100%;
+    height: 78px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#another_country{
+.c_but{
+    width: 100%;
+    height: 78px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -125px;
+}
+
+/* #another_country{
     margin-top: 3%;
     width: 85.9665428%;
     height: 70px;
-    /* margin-left: 7.01672862%; */
     margin-left: 6.5%;
     border-radius: 15%;
 }
@@ -244,7 +282,7 @@ body{
     font-size: 20px;
     font-weight: 300;
     line-height: 21.94px;
-}
+} */
 
 #block2{
     margin-top: 30px;
@@ -443,7 +481,8 @@ body{
     color: rgba(255, 255, 255, 1);
 
 }
-#ar_cat_pc{
+
+.ar_cat_pc{
     background: rgba(56, 66, 65, 0.48);
     width: 30px;
     height: 30px;
