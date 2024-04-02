@@ -86,7 +86,7 @@ body{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.001);
     backdrop-filter: blur(7px);
     width: 83.9665428%;
     padding-top: 2%;
@@ -94,7 +94,7 @@ body{
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 6.5%;
-    border: 3px solid rgba(219, 240, 255, 0.3); 
+    border: none;
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
     box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
@@ -121,11 +121,11 @@ body{
 }
 
 #content4{ 
-    background-color:#f1f1f1 ;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.4);;
     display: flex;
     flex-direction: column;
     height: 450px;
-    background: crimson;
     width: 83.9665428%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -226,6 +226,7 @@ body{
     margin-top: 8%;
     height: 78px;
     position: relative;
+    border-radius: 25px;
 }
 
 .c_im{
@@ -239,6 +240,7 @@ body{
     width: 100%;
     height: 78px;
     object-fit: cover;
+    border-radius: 25px;
 }
 
 .c_txt{
@@ -249,6 +251,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.c_txt a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+
 }
 
 .c_but{
@@ -304,6 +316,7 @@ body{
     object-fit: cover;
     position: relative;
     z-index: 1;
+    border-radius: 25px;
 }
 
 #text_about_object{
@@ -562,7 +575,7 @@ body{
     background: linear-gradient(90deg, #97D3FF 0%, #0C92F3 100%);
 }
 
-#question_b{
+.question_b{
     position: absolute;
     z-index: 3;
     width: 100%;
@@ -577,7 +590,7 @@ body{
     line-height: 21.94px;
 
 }
-#question_b2{
+#question_b{
     position: absolute;
     z-index: 3;
     width: 100%;
@@ -592,7 +605,7 @@ body{
     line-height: 21.94px;
 
 }
-#content15{
+#content5{
     position: relative;
     z-index: 3;
     border-radius: 25px;
