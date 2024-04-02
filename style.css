@@ -81,7 +81,7 @@ body{
     position: relative;
     z-index: 3;
     border-radius: 25px;
-    background: rgba(255, 255, 255, 0.001);;
+    background: rgba(255, 255, 255, 0.001);
     backdrop-filter: blur(7px); 
     text-align: center;
     width: 83.9665428%;
@@ -538,7 +538,8 @@ body{
     justify-content: center;
     font-size: 11px;
     color: black;
-     margin-left:4.561554%;
+    margin-left:2.280777%;
+    margin-right:2.280777%;
 }
 
 .inf h4{
@@ -615,7 +616,7 @@ body{
     position: relative;
     z-index: 3;
     border-radius: 25px;
-    background: rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.001);
     backdrop-filter: blur(7px); 
     text-align: center;
     width: 83.9665428%;
@@ -630,4 +631,49 @@ body{
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
     box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
 }
+.icon_word{
+    padding-top: 5px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.count_number{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 21.94px;
+    font-size:50px;
+
+}
+.icon_word_i{
+    background: rgba(219, 240, 255, 0.49);
+    border-radius: 50%;
+    border: 1px solid rgba(219, 240, 255, 0.49);
+    width: 54px;
+    height: 54px;
+    margin: auto;
+
+}
+.under_text{
+    padding-bottom:10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 21.94px;
+}
+.second_circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:63px;
+    height: 63px;
+    border: 1px solid rgba(219, 240, 255, 0.32);
+    background: rgba(219, 240, 255, 0.32);
+    border-radius: 50%;
+
+}
+
+
 
