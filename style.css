@@ -62,7 +62,6 @@ body{
 #content1{
     position: relative;
     z-index: 3;
-    background: #f1f1f1;
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(7px); 
@@ -87,7 +86,8 @@ body{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(7px);
     width: 83.9665428%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -101,11 +101,13 @@ body{
 }
 
 #content3{
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(7px);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     text-align: center;
-    background: crimson;
     width: 83.9665428%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -456,6 +458,15 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+#catalog_b{
+    width: 100%;
+    height: 220px;
+    margin-bottom: 60px;
+    border-radius:25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     
 }
 
@@ -470,7 +481,9 @@ body{
     color: rgba(255, 255, 255, 1);
 
 }
+
 .ar_cat_pc{
+    background: rgba(56, 66, 65, 0.48);
     width: 30px;
     height: 30px;
     border: 1px solid rgba(12, 146, 243, 1);
@@ -483,6 +496,21 @@ body{
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(7px); 
     min-width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: black;
+}
+.inf_b{
+    border: 1px solid rgba(115, 194, 252, 1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(7px); 
+    width: 45%;
     height: 100px;
     border-radius: 20px;
     display: flex;
@@ -548,5 +576,39 @@ body{
     font-weight: 600;
     line-height: 21.94px;
 
+}
+#question_b2{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 70px;
+    float: left;
+    background: none;
+    font-size: 16px;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 21.94px;
+
+}
+#content15{
+    position: relative;
+    z-index: 3;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(7px); 
+    text-align: center;
+    width: 83.9665428%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 6.5%;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
+    border: 3px solid rgba(219, 240, 255, 0.07); 
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
+    box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
+    box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
 }
 
