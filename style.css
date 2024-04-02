@@ -49,10 +49,10 @@ body{
     text-align: center;
     width: 83.9665428%;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 7.01672862%;
+    margin-left: 7%;
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(3px);
     border: 3px solid rgba(219, 240, 255, 0.07); 
@@ -71,7 +71,7 @@ body{
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 7.01672862%;
+    margin-left: 7%;
     border: 3px solid rgba(219, 240, 255, 0.3); 
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
@@ -89,7 +89,7 @@ body{
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 7.01672862%;
+    margin-left: 7%;
     border: 3px solid rgba(219, 240, 255, 0.07); 
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
@@ -107,7 +107,7 @@ body{
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
-    margin-left: 7.01672862%;
+    margin-left: 7%;
     border: 3px solid rgba(219, 240, 255, 0.07); 
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
@@ -117,7 +117,7 @@ body{
 #photo_user{
     width: 60px;
     height: 60px;
-    margin-left: 7.01672862%;
+    margin-left: 7%;
     margin-right: 3%;
 }
 
@@ -225,7 +225,8 @@ body{
     margin-top: 3%;
     width: 85.9665428%;
     height: 70px;
-    margin-left: 7.01672862%;
+    /* margin-left: 7.01672862%; */
+    margin-left: 7%;
     border-radius: 15%;
 }
 
@@ -247,7 +248,7 @@ body{
     margin-top: 30px;
     width: 85.9665428%;
     height: 70px;
-    margin-left: 7.01672862%;
+    margin-left: 7%;
     margin-bottom: 60px;
 }
 
@@ -348,7 +349,7 @@ body{
 #counting_b{
     width: 85.9665428%;
     height: 70px;
-    margin-left: 7.01672862%;
+    margin-left: 7%;
     margin-bottom: 60px;
     border-radius: 15%;
 }
@@ -447,12 +448,24 @@ body{
     height: 100px;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     font-size: 11px;
     color: black;
 }
 
+.inf h4{
+    font-size: 9px;
+}
+
+.inf_i{
+    width: 75px;
+    height: 75px;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
 
 #window1{
     width: 8.45945946%; 
@@ -466,7 +479,7 @@ body{
     position: relative;
     display: flex;
     width: 85.9665428%;
-    margin-left: 7.01672862%;
+    margin-left: 7%;
     border-radius: 15%;
     margin-bottom: 60px;
     text-align: center;
