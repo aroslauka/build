@@ -624,6 +624,15 @@ body{
     border-radius: 50%;
 
 }
+#tree5{
+    position: absolute;
+    z-index: 2;
+    width: 328px;
+    height: 327px;
+    left: -11%;
+    top: 300px;
+    transform: rotate(-30deg);
+}
 
 
 
