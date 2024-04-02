@@ -5,8 +5,8 @@ body{
     grid-gap: 0; 
     margin: 0;
     background:white;
-    font-family: "Geologica", sans-serif;
     padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #user{ 
@@ -45,6 +45,7 @@ body{
     background: #f1f1f1;
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(7px); 
     text-align: center;
     width: 83.9665428%;
     padding-top: 2%;
@@ -52,6 +53,8 @@ body{
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 7.01672862%;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
     border: 3px solid rgba(219, 240, 255, 0.07); 
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
@@ -186,7 +189,6 @@ body{
     height: 22px;
     border:none;
     background:none;
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 21.94px;
@@ -236,7 +238,6 @@ body{
     border-radius:34px;
     border: none;
     color: white;
-    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 21.94px;
@@ -273,13 +274,11 @@ body{
     right: 0;
     z-index: 2;
     overflow: auto;
-    font-family: "Viaoda Libre", serif;
 }
 
 #article{
     text-align: center;
     font-size: 20px;
-    font-family: "Viaoda Libre", serif;
 }
 
 #right{
@@ -418,6 +417,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    
 }
 
 #ar_cat{
@@ -426,7 +426,8 @@ body{
 
 .inf{
     border: 1px solid rgba(115, 194, 252, 1);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 50%, rgba(45, 47, 39, 0.1) 100%);
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(7px); 
     min-width: 100px;
     height: 100px;
     border-radius: 12px;
@@ -434,7 +435,9 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 11px;
+    color: black;
 }
+
 
 #window1{
     width: 8.45945946%; 
@@ -460,8 +463,9 @@ body{
     width: 100%;
     height: 70px;
     background: blue;
-    border-radius:30px 0 30px 0;
+    border-radius:25px;
     border: none;
+    background: linear-gradient(90deg, #97D3FF 0%, #0C92F3 100%);
 }
 
 #question_b{
@@ -471,7 +475,9 @@ body{
     height: 70px;
     float: left;
     background: none;
-    font-size: 18px;
-    color: black;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
 }
 
