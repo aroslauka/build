@@ -100,8 +100,9 @@ body{
     position: relative;
     z-index: 3;
     border-radius: 25px;
-    background: rgba(255, 255, 255, 0.001);
-    backdrop-filter: blur(7px); 
+    background-color: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.001);
+    backdrop-filter: blur(7px);  */
     text-align: center;
     width: 83.9665428%;
     padding-top: 2%;
@@ -503,8 +504,7 @@ body{
 
 .inf{
     border: 1px solid rgba(115, 194, 252, 1);
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(7px); 
+    background-color: rgba(255, 255, 255, 0.6); /* Цвет фона с прозрачностью */
     min-width: 100px;
     height: 100px;
     border-radius: 20px;
