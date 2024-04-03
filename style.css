@@ -100,8 +100,7 @@ body{
     position: relative;
     z-index: 3;
     border-radius: 25px;
-    background: rgba(255, 255, 255, 0.001);
-    backdrop-filter: blur(7px); 
+    background: rgba(255, 255, 255, 0.4); 
     text-align: center;
     width: 83.9665428%;
     padding-top: 2%;
@@ -109,7 +108,6 @@ body{
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 6.5%;
-    backdrop-filter: blur(3px);
     border: 3px solid rgba(219, 240, 255, 0.07); 
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
@@ -122,8 +120,7 @@ body{
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.001);
-    backdrop-filter: blur(7px);
+    background: rgba(255, 255, 255, 0.5);
     width: 83.9665428%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -140,8 +137,7 @@ body{
     position: relative;
     z-index: 3;
     border-radius: 25px;
-    background: rgba(255, 255, 255, 0.001);
-    backdrop-filter: blur(7px);
+    background: rgba(255, 255, 255, 0.5);
     text-align: center;
     width: 83.9665428%;
     padding-top: 2%;
@@ -164,8 +160,7 @@ body{
     position: relative;
     z-index: 3;
     border-radius: 25px;
-    background: rgba(255, 255, 255, 0.001);
-    backdrop-filter: blur(7px);
+    background: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
     height: 430px;
@@ -522,8 +517,7 @@ body{
 
 .inf{
     border: 1px solid rgba(115, 194, 252, 1);
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(7px); 
+    background: rgba(255, 255, 255, 0.6); 
     min-width: 100px;
     height: 100px;
     border-radius: 20px;
@@ -537,8 +531,7 @@ body{
 }
 .inf_b{
     border: 1px solid rgba(115, 194, 252, 1);
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(7px); 
+    background: rgba(255, 255, 255, 0.4); 
     width: 45%;
     height: 100px;
     border-radius: 20px;
@@ -645,8 +638,7 @@ body{
     position: relative;
     z-index: 3;
     border-radius: 25px;
-    background: rgba(255, 255, 255, 0.001);
-    backdrop-filter: blur(7px); 
+    background: rgba(255, 255, 255, 0.5);
     text-align: center;
     width: 83.9665428%;
     padding-bottom: 5%;
