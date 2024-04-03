@@ -231,6 +231,13 @@ body{
     width: 100px;
 }
 
+#icon2{
+    position: absolute;
+    top: -35px;
+    left: 38.3828996%;
+    width: 100px;
+}
+
 #country_choice{
     color: rgba(0, 0, 0, 1);;
     display: flex;
