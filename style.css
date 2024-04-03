@@ -19,7 +19,7 @@ body{
 #content{ 
     grid-area: content;
     background: white;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 60px;
     width: 100%;
 }
@@ -146,7 +146,7 @@ body{
     width: 83.9665428%;
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-left: 6.5%;
+    margin-left: 7.5%;
     border: 3px solid rgba(219, 240, 255, 0.07); 
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
@@ -332,7 +332,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    top: 185px;
+    top: 175px;
 }
 
 #ar_cat_4{
