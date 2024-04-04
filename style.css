@@ -24,6 +24,10 @@ body{
     width: 100%;
 }
 
+#content_only1{
+    margin-top: 3%;
+}
+
 #content_only3{
     padding-bottom: 0;
 }
