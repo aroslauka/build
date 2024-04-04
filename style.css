@@ -28,6 +28,10 @@ body{
     padding-bottom: 0;
 }
 
+#content_only5{
+    margin-top: 17%;
+}
+
 #footer{
     grid-area: footer;
     text-align: center;
@@ -93,7 +97,7 @@ body{
     z-index: 2;
     width: 328px;
     height: 327px;
-    top: 300px;
+    top: 350px;
 }
 
 #content1{
