@@ -16,12 +16,16 @@ body{
     flex-wrap: nowrap;
 }
 
-#content{ 
+.content{ 
     grid-area: content;
     background: white;
     padding-top: 30px;
     padding-bottom: 60px;
     width: 100%;
+}
+
+#content_only3{
+    padding-bottom: 0;
 }
 
 #footer{
