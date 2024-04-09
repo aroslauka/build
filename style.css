@@ -365,6 +365,26 @@ body{
     margin-right: 2.7308228%;
 }
 
+#head_button{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 2.7308228%;
+    margin-right: 2.7308228%;
+}
+
+#head_button3{
+    width: 100%;
+    height: 70px;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 21.94px;
+    background: blue;
+    border-radius: 60px;
+    background: linear-gradient(90deg, #97D3FF 0%, #0C92F3 100%);
+}
+
 #icon3{
     width: 50px;
     height: 50px;
@@ -624,7 +644,6 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     line-height: 21.94px;
-
 }
 
 #question_b{
