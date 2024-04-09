@@ -16,12 +16,28 @@ body{
     flex-wrap: nowrap;
 }
 
-#content{ 
+.content{ 
     grid-area: content;
     background: white;
     padding-top: 30px;
     padding-bottom: 60px;
     width: 100%;
+}
+
+#content_only1{
+    margin-top: 7%;
+}
+
+#content_only3{
+    padding-bottom: 0;
+}
+
+#content_only4{
+    margin-top: 3%;
+}
+
+#content_only5{
+    margin-top: 17%;
 }
 
 #footer{
@@ -34,9 +50,7 @@ body{
     z-index: 2;
     width: 328px;
     height: 327px;
-    left: -11%;
     top: 360px;
-    transform: rotate(-30deg);
 }
 
 #tree2{
@@ -91,9 +105,7 @@ body{
     z-index: 2;
     width: 328px;
     height: 327px;
-    left: -11%;
-    top: 300px;
-    transform: rotate(-30deg);
+    top: 350px;
 }
 
 #content1{
