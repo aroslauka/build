@@ -187,6 +187,26 @@ body{
     box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
     box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
 }
+.content6{ 
+    position: relative;
+    z-index: 3;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    width: 83.9665428%;
+    margin-top: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 6.5%;
+    border: none;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5) inset;
+    box-shadow: -6px 9px 10.899999618530273px 0px rgba(219, 240, 255, 1);
+    box-shadow: 0px 2px -50px 0px rgba(97, 190, 236, 0.5) inset;
+}
+
 
 #photo_user{
     width: 60px;
@@ -271,6 +291,17 @@ body{
     position: relative;
     border-radius: 25px;
 }
+.country6{
+    margin-left: 2%;
+    width: 96%;
+    border: none;
+    border-radius:15px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    height: 78px;
+    position: relative;
+    border-radius: 25px;
+}
 
 .c_im{
     width: 100%;
@@ -309,6 +340,38 @@ body{
 .c_but{
     width: 30px;
     height: 78px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    right: 7%;
+}
+
+.c_txt6{
+    border-radius: 25px;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #97D3FF 0%, #0C92F3 100%);
+    
+}
+.c_txt6 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.94px;
+
+}
+
+.c_but6{
+    width: 30px;
+    height: 90px;
     position: absolute;
     z-index: 2;
     display: flex;
