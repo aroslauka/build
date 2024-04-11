@@ -764,6 +764,14 @@ body{
     font-weight: 600;
     line-height: 21.94px;
 }
+#question_b a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-decoration: none;
+
+}
 #question_b_first{
     margin-top: -45px;
     position: absolute;
