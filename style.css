@@ -528,38 +528,13 @@ body{
     margin-bottom: 30px;
     border-radius: 20px;
 }
-/* отсюда  новое */
+
 .objects{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px;
-    border-radius: 20px;
-}
-.objects a {
-    display: block;
     width: 150px;
     height: 150px;
+    margin-bottom: 30px;
+    border-radius: 20px;
 }
-.objects .text-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1px;
-    font-family: "Montserrat",sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 21.94px;
-    color: rgba(0, 0, 0, 1);
-}
-
-.objects .text-container .text-column {
-    width: 100px;
-    text-align: center;
-}
-/* до сюда */
 
 #last1{
     margin-bottom: 0;
@@ -577,15 +552,6 @@ body{
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
-
-}
-
-#discription{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 100px;
 
 }
 
@@ -658,20 +624,6 @@ body{
     border-radius: 50%;
 }
 
-.inf{
-    border: 1px solid rgba(115, 194, 252, 1);
-    background: rgba(255, 255, 255, 0.6); 
-    min-width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    font-size: 11px;
-    color: black;
-}
 .inf_b{
     border: 1px solid rgba(115, 194, 252, 1);
     background: rgba(255, 255, 255, 0.4); 
@@ -689,21 +641,78 @@ body{
     margin-right:2.280777%;
 }
 
-.inf h4{
+/* блок с изменениями кнопок на главной */
+#discription{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100px;
+}
+
+/* блок с изменениями кнопок на главной */
+.inf{
+    position: relative;
+    border: 1px solid rgba(115, 194, 252, 1);
+    background: rgba(255, 255, 255, 0.6); 
+    min-width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: black;
+}
+
+/* блок с изменениями кнопок на главной */
+.inf_back{
+    position: absolute;
+    z-index: 1;
+    width: 95px;
+    height: 95px;
+}
+
+/* блок с изменениями кнопок на главной */
+.inf_backimage{
+    width: 100%;
+    height: 95px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* блок с изменениями кнопок на главной */
+.inf_txt{
+    position: absolute;
+    z-index: 3;
+    color: white;
     font-size: 9px;
 }
 
-.inf_i{
+/* блок с изменениями кнопок на главной */
+.inf_secondim{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: -15px;
     width: 75px;
     height: 75px;
+}
+
+/* блок с изменениями кнопок на главной */
+.inf_i{
+    width: 60px;
+    height: 60px;
     margin-top: 5px;
     margin-bottom: -10px;
 }
 
+/* блок с изменениями кнопок на главной */
 #window1{
     width: 8.45945946%; 
 }
 
+/* блок с изменениями кнопок на главной */
 #window2{
     width: 8.45945946%; 
 }
